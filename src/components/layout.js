@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './style.scss';
+import 'bulma/bulma.sass';
 import './style_documentation.css'
 import Navbar from './navbar';
 import Header from './header'
