@@ -1,7 +1,13 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
-    title: "TSN NS",
+    siteUrl: "https://tsn-ns.ru",
+    title: "ТСН Новое Сойкино",
+    author: 'Vasiliy Shakhunov',
+		imageUrl: 'https://i.imgur.com/Vz81GEl.png',    
+		description: 'A Project to bootstrap your next Gatsby + Bulma site.',
+		keywords: `Web developer, Web, Developer, CSS, HTML, JS, Javascript, Gatsby, Bulma Developer, CSS3, HTML5, Seo, Starter`,   
+		telegram: `https://t.me/tsn_soikino_news`,
+		vkontakte: 'https://vk.com/tsnns', 
   },
   plugins: [
     "gatsby-plugin-image",
@@ -13,6 +19,15 @@ module.exports = {
       options: {
         icon: "src/images/icon.png",
       },
+    },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `Lato:wght@300;400;700`
+        ],
+        display: 'swap'
+      }
     },
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
