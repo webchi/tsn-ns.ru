@@ -1,8 +1,8 @@
 import React from 'react';
-import { FaChevronLeft, FaChevronRight, FaArrowRight } from 'react-icons/fa';
+import { FaChevronLeft, FaChevronRight, FaArrowRight, FaCaretRight } from 'react-icons/fa';
 
 const Midsection = () => (
-<div className="container is-max-desktop">
+  <div className="container is-max-desktop">
     <section className="featured">
       <div className="level">
         <div className="level-left">
@@ -66,7 +66,7 @@ const Midsection = () => (
         </div>
       </div>
     </section>
-	<section className="categories">
+    <section className="categories">
       <div className="columns is-multiline">
         <div className="column is-6">
           <div className="category">
@@ -76,23 +76,23 @@ const Midsection = () => (
             <hr />
             <ul>
               <li>
-                <i className="fas fa-caret-right fa-xs icon-padding-right"></i>
+                <FaCaretRight className="icon-padding-right" size={12} />
                 General Billing Overview
               </li>
               <li>
-                <i className="fas fa-caret-right fa-xs icon-padding-right"></i>
+                <FaCaretRight className="icon-padding-right" size={12} />
                 Changing the Account Owner
               </li>
               <li>
-                <i className="fas fa-caret-right fa-xs icon-padding-right"></i>
+                <FaCaretRight className="icon-padding-right" size={12} />
                 Downloading/Printing Your Invoices
               </li>
               <li>
-                <i className="fas fa-caret-right fa-xs icon-padding-right"></i>
+                <FaCaretRight className="icon-padding-right" size={12} />
                 Downloading/Printing Your Invoices
               </li>
               <li>
-                <i className="fas fa-caret-right fa-xs icon-padding-right"></i>
+                <FaCaretRight className="icon-padding-right" size={12} />
                 What to Do When Your Card is Declined
               </li>
             </ul>
@@ -107,23 +107,23 @@ const Midsection = () => (
             <hr />
             <ul>
               <li>
-                <i className="fas fa-caret-right fa-xs icon-padding-right"></i>
+                <FaCaretRight className="icon-padding-right" size={12} />
                 Why Isn't My Custom Profile Data Showing on My Tickets?
               </li>
               <li>
-                <i className="fas fa-caret-right fa-xs icon-padding-right"></i>
+                <FaCaretRight className="icon-padding-right" size={12} />
                 Why Won't My Gmail SMTP Settings Work?
               </li>
               <li>
-                <i className="fas fa-caret-right fa-xs icon-padding-right"></i>
+                <FaCaretRight className="icon-padding-right" size={12} />
                 Is There a Customer Portal My Users Can Log in To?
               </li>
               <li>
-                <i className="fas fa-caret-right fa-xs icon-padding-right"></i>
+                <FaCaretRight className="icon-padding-right" size={12} />
                 How Do I Export My Contacts, Tickets, Reports?
               </li>
               <li>
-                <i className="fas fa-caret-right fa-xs icon-padding-right"></i>
+                <FaCaretRight className="icon-padding-right" size={12} />
                 How Do I Search for a Number?
               </li>
             </ul>
@@ -138,27 +138,27 @@ const Midsection = () => (
             <hr />
             <ul>
               <li>
-                <i className="fas fa-caret-right fa-xs icon-padding-right"></i>
+                <FaCaretRight className="icon-padding-right" size={12} />
                 Creating a New Conversation
               </li>
               <li>
-                <i className="fas fa-caret-right fa-xs icon-padding-right"></i>
+                <FaCaretRight className="icon-padding-right" size={12} />
                 Assigning Conversations and Changing Status
               </li>
               <li>
-                <i className="fas fa-caret-right fa-xs icon-padding-right"></i>
+                <FaCaretRight className="icon-padding-right" size={12} />
                 Adding Internal Notes
               </li>
               <li>
-                <i className="fas fa-caret-right fa-xs icon-padding-right"></i>
+                <FaCaretRight className="icon-padding-right" size={12} />
                 Configuring Your Inbox View
               </li>
               <li>
-                <i className="fas fa-caret-right fa-xs icon-padding-right"></i>
+                <FaCaretRight className="icon-padding-right" size={12} />
                 Snoozing a Conversation
               </li>
             </ul>
-            <h3 className="category-more">View All <FaArrowRight  className="icon-padding-left" /></h3>
+            <h3 className="category-more">View All <FaArrowRight className="icon-padding-left" /></h3>
           </div>
         </div>
         <div className="column is-6">
@@ -169,24 +169,24 @@ const Midsection = () => (
             <hr />
             <ul>
               <li>
-                <i className="fas fa-caret-right fa-xs icon-padding-right"></i>
+                <FaCaretRight className="icon-padding-right" size={12} />
                 Understanding User Roles
               </li>
               <li>
-                <i className="fas fa-caret-right fa-xs icon-padding-right"></i>
+                <FaCaretRight className="icon-padding-right" size={12} />
                 Creating a Group
               </li>
               <li>
-                <i className="fas fa-caret-right fa-xs icon-padding-right"></i>
+                <FaCaretRight className="icon-padding-right" size={12} />
                 Editing the Role of a User
               </li>
             </ul>
-            <h3 className="category-more">View All <FaArrowRight  className="icon-padding-left" /></h3>
+            <h3 className="category-more">View All <FaArrowRight className="icon-padding-left" /></h3>
           </div>
         </div>
       </div>
     </section>
-  </div>	
+  </div>
 );
 
 export default Midsection;
