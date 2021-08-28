@@ -17,9 +17,9 @@ const Navbar = () => (
 
 			<div id="navbarBasicExample" className="navbar-menu">
 				<div className="navbar-end">
-					<a className="navbar-item"> Tag </a>
-					<a className="navbar-item"> Author </a>
-					<a className="navbar-item"> Style Guide </a>
+					<a className="navbar-item"> Главная </a>
+					<a className="navbar-item"> Жителям </a>
+					<a className="navbar-item"> Контакты </a>
 				</div>
 			</div>
 		</div>
