@@ -1,14 +1,16 @@
 import * as React from "react"
 import { FaChevronLeft, FaChevronRight, FaArrowRight, FaCaretRight } from 'react-icons/fa';
+import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from '../components/layout';
 
 const IndexPage = () => {
     return (
         <Layout>
-            <section className="hero is-medium">
+            <section className="hero is-medium has-background">
+                <StaticImage src="../images/soykino.jpg" alt="ТСН Новое Сойкино" placeholder="blurred" layout="fixed" className="hero-background is-transparent" />
                 <div className="hero-body has-text-centered">
-                    <h1 className="title is-2">Thoughts, stories, and ideas.</h1>
+                    <h1 className="title is-2">ТСН «Новое Сойкино»</h1>
                 </div>
             </section>
             <div className="container is-max-desktop">
