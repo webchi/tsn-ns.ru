@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaHome, FaBook, FaMapMarked } from 'react-icons/fa';
+import { FaHome, FaUsers, FaMapMarked } from 'react-icons/fa';
 
 const Navbar = () => (
 	<nav class="navbar">
@@ -24,9 +24,9 @@ const Navbar = () => (
 					<span class="navbar-item">
 						<a class="button is-white is-outlined" href="#">
 							<span class="icon">
-								<FaBook />
+								<FaUsers />
 							</span>
-							<span>Документы</span>
+							<span>Жителям</span>
 						</a>
 					</span>
 					<span class="navbar-item">

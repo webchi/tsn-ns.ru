@@ -9,7 +9,7 @@ const IndexPage = () => {
     return (
         <Layout>
             <section class="hero is-info is-medium has-background">
-                <StaticImage src="../images/soykino.jpg" alt="ТСН Новое Сойкино" placeholder="blurred" layout="fixed" className="hero-background is-transparent" />                
+                <StaticImage src="../images/soykino.jpg" alt="ТСН Новое Сойкино" placeholder="blurred" layout="fixed" className="hero-background is-transparent" />
                 <div class="hero-head">
                     <Navbar />
                 </div>
@@ -25,77 +25,20 @@ const IndexPage = () => {
                 </div>
 
             </section>
-
-            <div className="container is-max-desktop">
-                <section className="featured">
-                    <div className="level">
-                        <div className="level-left">
-                            <div className="level-item">
-                                <h2 className="subtitle">Featured Articles</h2>
-                            </div>
-                        </div>
-                        <div className="level-right">
-                            <div className="level-item">
-                                <div className="field has-addons has-addons-centered">
-                                    <div className="control">
-                                        <a className="button is-small" disabled>
-                                            <FaChevronLeft />
-                                        </a>
-                                    </div>
-                                    <div className="control">
-                                        <a className="button is-small">
-                                            <FaChevronRight />
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="columns">
-                        <div className="column is-3">
-                            <article>
-                                <figure className="image is-5by3">
-                                    <img src="https://i.ibb.co/fq8hSGQ/placeholder-image-368x246.png" />
-                                </figure>
-                                <h2 className="subtitle">Creating a Group</h2>
-                                <span className="tag is-rounded">Users & Groups</span>
-                            </article>
-                        </div>
-                        <div className="column is-3">
-                            <article>
-                                <figure className="image is-5by3">
-                                    <img src="https://i.ibb.co/fq8hSGQ/placeholder-image-368x246.png" />
-                                </figure>
-                                <h2 className="subtitle">Downloading/Printing Your Invoices</h2>
-                                <span className="tag is-rounded">Billing & Accounts</span>
-                            </article>
-                        </div>
-                        <div className="column is-3">
-                            <article>
-                                <figure className="image is-5by3">
-                                    <img src="https://i.ibb.co/fq8hSGQ/placeholder-image-368x246.png" />
-                                </figure>
-                                <h2 className="subtitle">Changing the Account Owner</h2>
-                                <span className="tag is-rounded">Billing & Accounts</span>
-                            </article>
-                        </div>
-                        <div className="column is-3">
-                            <article>
-                                <figure className="image is-5by3">
-                                    <img src="https://i.ibb.co/fq8hSGQ/placeholder-image-368x246.png" />
-                                </figure>
-                                <h2 className="subtitle">Adding Internal Notes</h2>
-                                <span className="tag is-rounded">Billing & Accounts</span>
-                            </article>
-                        </div>
-                    </div>
-                </section>
-                <section className="categories">
+            <div className="container is-widescreen">
+                <section className="section">
+                    <h2 className="title is-4 is-spaced bd-anchor-title">
+                        <a className="bd-anchor-link" href="#citizens"> # </a>
+                        <span className="bd-anchor-name"> Жителям </span>
+                    </h2>
+                    <h3 class="subtitle">
+                        Оплата комунальных служб
+                    </h3>
                     <div className="columns is-multiline">
-                        <div className="column is-6">
+                        <div className="column is-3">
                             <div className="category">
                                 <h1 className="title is-5">
-                                    Billing & Accounts <span>5 articles</span>
+                                    Электроэнергия
                                 </h1>
                                 <hr />
                                 <ul>
@@ -123,10 +66,10 @@ const IndexPage = () => {
                                 <h3 className="category-more">View All <FaArrowRight className="icon-padding-left" /></h3>
                             </div>
                         </div>
-                        <div className="column is-6">
+                        <div className="column is-3">
                             <div className="category">
                                 <h1 className="title is-5">
-                                    FAQs <span>7 articles</span>
+                                    Вода и инфраструктура
                                 </h1>
                                 <hr />
                                 <ul>
@@ -154,10 +97,10 @@ const IndexPage = () => {
                                 <h3 className="category-more">View All <FaArrowRight className="icon-padding-left" /></h3>
                             </div>
                         </div>
-                        <div className="column is-6">
+                        <div className="column is-3">
                             <div className="category">
                                 <h1 className="title is-5">
-                                    Getting Started <span>6 articles</span>
+                                    Поставка газа
                                 </h1>
                                 <hr />
                                 <ul>
@@ -185,10 +128,10 @@ const IndexPage = () => {
                                 <h3 className="category-more">View All <FaArrowRight className="icon-padding-left" /></h3>
                             </div>
                         </div>
-                        <div className="column is-6">
+                        <div className="column is-3">
                             <div className="category">
                                 <h1 className="title is-5">
-                                    Users & Groups <span>3 articles</span>
+                                    Твёрдые Бытовые Отходы
                                 </h1>
                                 <hr />
                                 <ul>
@@ -209,7 +152,7 @@ const IndexPage = () => {
                             </div>
                         </div>
                     </div>
-                </section>
+                </section>        
             </div>
         </Layout>
     )
